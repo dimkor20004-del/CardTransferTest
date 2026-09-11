@@ -5,8 +5,8 @@ import lombok.Data;
 
 @Data
 @AllArgsConstructor
-public class RegistrationDto {
+public class UserData {
     private String login;
     private String password;
-    private String status;
+    private String verificationCode;
 }
